@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "debug": "nodemon --inspect-brk=0.0.0.0 app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beltranbot/nodejs-basic-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beltranbot/nodejs-basic-server/issues"
+  },
+  "homepage": "https://github.com/beltranbot/nodejs-basic-server#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
